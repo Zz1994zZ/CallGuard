@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.emobile.localservicedemo"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <!-- 读取电话状态权限 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <!-- 读取联系人权限 -->
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <!-- 获取通讯录 -->
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+    <!-- SD卡读写权限 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <!-- 录音权限 -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <!-- 震动权限 -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+
+    <application
+        android:icon="@drawable/icon"
+        android:label="@string/app_name" >
+        <activity
+            android:name="com.zz.safeCall.StartedActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--
+              <activity
+            android:name=".BindingActivity">
+        </activity>
+        -->
+
+        <activity android:name="com.zz.safeCall.YunZhiSheng" >
+        </activity>
+
+        <service android:name="com.zz.safeCall.LocalService" >
+        </service>
+
+        <activity
+            android:name="com.zz.safeCall.CallList"
+            android:label="@string/title_activity_call_list" >
+        </activity>
+        <activity
+            android:name="com.emobile.localservicedemo.SettingsActivity"
+            android:label="设置" >
+        </activity>
+        <activity
+            android:name="com.zz.safeCall.WhiteList"
+            android:label="白名单" >
+        </activity>
+    </application>
+
+</manifest>

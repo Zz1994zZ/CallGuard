@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, LocalServiceActivity!</string>
+    <string name="app_name">安全通话管家</string>
+    <string name="local_service_controller">This demonstrates how you can implement persistent services that
+        may be started and stopped as desired.</string>
+    <string name="start_service">Start Service</string>
+    <string name="stop_service">Stop Service</string>
+    <string name="jump_to_bind_version">Jump to Bound Version!</string>
+    <string name="local_service_binding">This demonstrates how you can connect with a persistent
+        service.  Notice how it automatically starts for you, and play around with the
+        interaction between this and Local Service Controller.</string>
+    <string name="bind_service">Bind Service</string>
+    <string name="unbind_service">Unbind Service</string>
+    <string name="local_service_connected">Connected to local service</string>
+    <string name="local_service_disconnected">Disconnected from local service</string>
+    <string name="local_service_started">安全服务正在运行</string>
+    <string name="local_service_stopped">已关闭通话安全服务</string>
+    <string name="local_service_label">已启动通话安全服务</string>
+    <string name="menu_settings">Settings</string>
+    <string name="lbl_set_domain">识别领域</string>
+    <string name="lbl_set_language">语  言</string>
+    <string name="btn_close_config">完成</string>
+    <string name="lbl_set_rate">采样率</string>
+    <string name="recognizer">开始识别</string>
+    <string name="title_name">云知声语音示例</string>
+    <string name="select_setting">选择设置</string>
+    <string name="general">通用识别</string>
+    <string name="poi">地名识别</string>
+    <string name="song">歌名识别</string>
+    <string name="movietv">影视名识别</string>
+    <string name="medical">医药领域识别</string>
+    <string name="volume">音量  : </string>
+    <string name="status">状态  : </string>
+    <string name="please_speak">请说话</string>
+    <string name="speaking">说话中</string>
+    <string name="recognizer_result">识别结果 :</string>
+    <string name="cancel">取消</string>
+    <string name="say_over">说完了</string>
+    <string name="click_say">点击说话</string>
+    <string name="no_hear_sound">没有听到声音</string>
+    <string name="info_upload_success">个性化信息上传成功</string>
+    <string name="give_up"> 放弃</string>
+    <string name="opening_recode_devices"> 正在打开录音设备</string>
+    <string name="just_recognizer">正在识别</string>
+    <string name="chinese">普通话</string>
+    <string name="english">英语</string>
+    <string name="cantonese">粤语</string>
+    <string name="url">http://172.19.54.1:8080/SafetyAnalyzer/servlet/safeAnalyzerServlet</string>
+    <string name="title_activity_call_list">危险通话记录</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="no_scanf">不扫描联系人</string>
+    <string name="no_scanfx">勾选后不会处理与联系人之间的通话信息</string>
+    <string name="open_ysq">自动免提</string>
+    <string name="open_ysqx">在服务运行时通话自动免提（为提高识别质量建议勾选）</string>
+    <string name="main_url">fzp110.cn</string>
+    <string name="title_activity_white_list">WhiteList</string>
+    <string name="app_id">56c88b59</string>
+
+</resources>

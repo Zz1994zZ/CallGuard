@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item  
+        android:id="@+id/action_exit"  
+        android:orderInCategory="100"  
+        android:showAsAction="always"  
+        android:title="记录"/>  
+    <item  
+        android:id="@+id/action_settings"  
+        android:title="设置">  
+    </item>  
+    <item  
+        android:id="@+id/action_about"  
+        android:title="关于我们">  
+    </item>  
+</menu>
